@@ -14,3 +14,5 @@ Here is the pseudocode of the algorithm from wikipedia.org:
     # Now all i such that A[i] is true are prime.
 
 to view, open animation.html in a browser
+
+You can also view the live version here: http://www.mattoates.me/projects/primes/
