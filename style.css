@@ -1,0 +1,39 @@
+body {
+    background-color: #333;
+    background-image: url('img/hexabump.png');
+}
+
+#animation {
+	width: 600px;
+	height: 600px;
+}
+
+.box {
+	background-color: #333;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #666;
+	width: 600px;
+	margin: auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+hr {
+	border: 1px solid;
+	color: #444;
+}
+
+.important {
+	text-align: center;
+}
+
+.padded {
+	padding: 10px;
+}
+
+h1, h2, h3, p, span {
+	color: white;
+	margin: 0;
+	font-family: 'Helvetica';
+}

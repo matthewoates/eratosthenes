@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <title>Eratosthenes in Raphael.js</title>
+        <LINK href="style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="raphael.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        <div id="animation" class="box"></div>
+
+        <div id="bottom" class="box">
+            <div class="padded">
+                <!-- settings -->
+                <label for="num_rows">
+                    <span>rows:</span>
+                </label>
+                <select id="num_rows" name="num_rows">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10" selected="selected">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                </select>
+
+                <label for="num_cols">
+                    <span>columns:</span>
+                </label>
+                <select id="num_cols" name="num_cols">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10" selected="selected">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                </select>
+
+                <label for="speed">
+                    <span>speed:</span>
+                </label>
+                <select id="speed" name="speed">
+                    <option value="0.25">very slow (0.25x)</option>
+                    <option value="0.5">slow (0.5x)</option>
+                    <option value="1" selected="selected">normal (1x)</option>
+                    <option value="2">fast (2x)</option>
+                    <option value="4">very fast (4x)</option>
+                </select>
+
+
+                <button id="restart" disabled>Restart Animation</button>
+
+            </div>
+        </div>
+    </body>
+</html>
